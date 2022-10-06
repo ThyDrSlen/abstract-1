@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+    display: inline-block;
+    
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body{
+    background:white;
+    max-width:61.5%;
+    margin:auto;
+    margin-top:8px;
+    
+}
+div{
+    display:inline-block;
+    margin:0px;
+    
+}
+.base{
+
+    display:inline-block;
+    margin:0px;
+}
+
+.red{
+    background-color:#e73b05;
+    width:515px;
+    height: 335px;
+    border:45px solid black ;
+    border-top:35px solid black;
+}
+
+
+.blue{
+    background-color: #4005e7 ;
+    width:515px;
+    height:220px;
+    border-top:70px solid black;
+    border-bottom:80px solid black;
+    border-left:80px solid black;
+    border-right:80px solid black;
+    margin-left:33px;
+    margin-right:0;
+    margin-bottom:115px;
+    box-shadow: 0 4px 4px  #bababa ;
+    
+    
+
+}
+
+
+.yellow{
+    
+    background:#e79a04 ;
+    width:125px;
+    height: 250px;
+    border:25px solid black; 
+    margin:0px;
+    margin-left:10px;
+    box-shadow: 0 4px 4px  #bababa ;
+}
+
+.green{
+    background-color: #22e71b ;
+    width:515px;
+    height:335px;
+    border:18px solid black;
+    
+    padding:30px 130px;
+    background-clip: content-box;
+   margin-bottom: -10px;
+   position: relative;
+}
+
+.teal{
+    background:#22e77a ;
+    width:125px;
+    height: 340px;
+    border:28px solid black; 
+    margin-left:115px;
+    margin-right:0px;
+    position: relative;
+    top:10px;
+    
+}
+.pink{
+    background:#e705b5   ;
+    width:452px;
+    height: 130px;
+    border:4px solid black; 
+    position:relative;
+    bottom:200px;
+    left:0px;
+    margin-left:-10px;
+    margin-right:0;
+    margin-bottom: 0;
+    padding:15px 70px;
+    background-clip: content-box;
+    
+}
+.purple{
+    background:#8407bf ;
+    width:300px;
+    height: 140px;
+    border:20px solid black; 
+    margin:0px;
+    position: absolute;
+    bottom: 320px;
+    right: 450px;
+    padding:0px 25px;
+    background-clip: content-box;
+}
+.orange{
+    background:#e76405 ;
+    width:95.60%;
+    height: 90px;
+    border:30px solid black; 
+    margin: 0px;
+}
